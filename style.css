@@ -1,0 +1,21 @@
+.quadrato {
+    border: solid 2px black;
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+header {
+    padding: 16px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+hr {
+    background-color: black;
+    height: 2px;
+}
+
+footer {
+    font-size: 20px;
+}
