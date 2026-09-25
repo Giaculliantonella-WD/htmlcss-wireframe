@@ -15,14 +15,12 @@ header {
     text-align: center;
 }
 
-hr {
-    background-color: black;
-    height: 2px;
-}
+
 
 footer {
     background-color: blueviolet;
     padding: 10px;
+    text-align: center;
 }
 
 * {
