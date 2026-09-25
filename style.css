@@ -12,7 +12,7 @@ header {
     background-color: blueviolet;
     color: white;
     padding: 16px;
-    ;
+    text-align: center;
 }
 
 hr {
@@ -21,7 +21,8 @@ hr {
 }
 
 footer {
-    font-size: 20px;
+    background-color: blueviolet;
+    padding: 10px;
 }
 
 * {
