@@ -1,18 +1,22 @@
 .card {
     border: solid 1px grey;
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    margin: 20px auto;
+
+    padding: 20px;
+
     border-radius: 10px;
     background-color: white;
+
+    width: calc(100% / 3 - 20px / 3);
+    min-width: 250px;
 }
 
 header {
     background-color: blueviolet;
     color: white;
-    padding: 16px;
+    margin-bottom: 24px;
     text-align: center;
+    font-weight: bold;
+
 }
 
 
@@ -31,13 +35,61 @@ footer {
 
 .card-image {
     width: 64px;
+    height: 80px;
+    display: inline block;
 }
 
 .card-title {
-    display: inline;
+    display: inline-block;
+    margin-left: 3px;
 }
 
 body {
     font-family: sans-serif;
     background-color: gainsboro;
+}
+
+.header-nav {
+
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+
+
+main {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.card-text {
+    margin-top: 16px;
+}
+
+.boxed {
+    max-width: 900px;
+    margin: 0 auto;
+
+
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-card {
+    display: flex;
+    align-items: center;
 }
